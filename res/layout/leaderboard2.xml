@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/toast_frame" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/nameheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Name  " />
+
+            <TextView
+                android:id="@+id/scoreheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Score." />
+
+            <TextView
+                android:id="@+id/timeheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Time" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/namefiled2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Name  " />
+
+            <TextView
+                android:id="@+id/scorefild2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Score." />
+
+            <TextView
+                android:id="@+id/timefiled2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Time" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/namefiled3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Name  " />
+
+            <TextView
+                android:id="@+id/scorefild3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Score." />
+
+            <TextView
+                android:id="@+id/timefiled3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Time" />
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/namefiled4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Name  " />
+
+            <TextView
+                android:id="@+id/scorefild4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Score." />
+
+            <TextView
+                android:id="@+id/timefiled4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Time" />
+
+        </TableRow>
+                <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/namefiled5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Name  " />
+
+            <TextView
+                android:id="@+id/scorefild5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Score." />
+
+            <TextView
+                android:id="@+id/timefiled5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:maxWidth="100dp"
+                android:text="Time" />
+
+        </TableRow>
+
+
+                <Button
+                    android:id="@+id/clearScores"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clear Scores" />
+
+                <Button
+                    android:id="@+id/sortTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sort by Time" />
+                
+                <Button
+                    android:id="@+id/sortScore"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sort by Score" />
+                
+        
+        
+     </TableLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">MineSweeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Minesweeper</string>
+    <string name="_1">1</string>
+    <string name="myappname">Minesweeper</string>
+
+</resources>
