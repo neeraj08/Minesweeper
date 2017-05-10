@@ -100,7 +100,7 @@ public class Game extends Activity {
 		db=openOrCreateDatabase("ScoresDatabase",MODE_PRIVATE,null);
 	    progress=(ProgressBar)findViewById(R.id.progressBar1);
 
-		progress.setScrollBarStyle(getWallpaperDesiredMinimumHeight());
+		progress.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_INSET);
 	    
 	    pref=PreferenceManager.getDefaultSharedPreferences(this);
 	    isSoundActive=pref.getBoolean("Sound", true);
@@ -114,6 +114,7 @@ public class Game extends Activity {
 			public void onClick(DialogInterface dialog, int which) {
 				player.setName(input.getText().toString());
 				db.execSQL("INSERT INTO SCORES VALUES('"+player.getName()+"',"+player.getScore()+","+timeElapsed+");");
+				Log.d("insert","done");
 		  	
 			}
 		});
@@ -452,7 +453,7 @@ Log.d("mytag","calling start");
     	alert.setMessage("Enter name");
     	alert.setView(input);
     	alert.show();
- /*
+// /*
     	if(db.isOpen())
     		db.close();
  
@@ -461,7 +462,7 @@ Log.d("mytag","calling start");
     	Log.d("Databaseeeee","database opened");
     	
     	Log.d("Databaseeeee","values inserted");
-*/
+//*/
 	}
 
 
